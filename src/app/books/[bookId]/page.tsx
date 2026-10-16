@@ -7,6 +7,23 @@ interface BookIdParams {
     }>
 }
 
+// generateStaticParams
+export const generateStaticParams = async() => {
+    try{
+        const res = await fetch(`http://localhost:5000/books`);
+
+        if(!res.ok) {
+            throw new Error("Failed to fetch the book");
+        }
+
+        const books = await res.json();
+        return books.slice(0, 3)?.map((book: Book) => ({ bookId: book?.id }));
+    }catch(err) {
+        console.error(err);
+        throw err;
+    }
+}
+
 // fetchDynamicDataById
 const fetchDynamicDataById = async(id: string): Promise<Book> => {
     try{
