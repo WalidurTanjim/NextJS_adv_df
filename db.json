@@ -1,13 +1,7 @@
 {
   "success": true,
   "status": 200,
-  "message": "Products retrieved successfully",
-  "meta": {
-    "total_items": 11,
-    "current_page": 1,
-    "total_pages": 1,
-    "items_per_page": 15
-  },
+  "message": "API retrieved successfully",
   "data": [
     {
       "id": "prod_01h4k8m9n2",
@@ -163,6 +157,158 @@
         "https://example.com/images/lamp-1.jpg"
       ],
       "created_at": "2026-03-15T13:10:00Z"
+    }
+  ],
+  "books": [
+    {
+      "id": "book_01h4k8m9n2",
+      "name": "Atomic Habits",
+      "slug": "atomic-habits",
+      "author": "James Clear",
+      "category": "Self-Help",
+      "price": 21.99,
+      "currency": "USD",
+      "rating": 4.8,
+      "stock_quantity": 45,
+      "is_available": true,
+      "cover_image": "https://example.com/images/atomic-habits.jpg",
+      "published_year": 2018,
+      "created_at": "2026-01-15T08:30:00Z"
+    },
+    {
+      "id": "book_02j5l9p3q4",
+      "name": "The Pragmatic Programmer",
+      "slug": "the-pragmatic-programmer",
+      "author": "Andrew Hunt, David Thomas",
+      "category": "Programming",
+      "price": 45.00,
+      "currency": "USD",
+      "rating": 4.7,
+      "stock_quantity": 15,
+      "is_available": true,
+      "cover_image": "https://example.com/images/pragmatic-programmer.jpg",
+      "published_year": 1999,
+      "created_at": "2026-01-18T10:15:00Z"
+    },
+    {
+      "id": "book_03k6m1r5t6",
+      "name": "Clean Code",
+      "slug": "clean-code",
+      "author": "Robert C. Martin",
+      "category": "Programming",
+      "price": 38.50,
+      "currency": "USD",
+      "rating": 4.6,
+      "stock_quantity": 0,
+      "is_available": false,
+      "cover_image": "https://example.com/images/clean-code.jpg",
+      "published_year": 2008,
+      "created_at": "2026-02-01T14:20:00Z"
+    },
+    {
+      "id": "book_04n7p2s7v8",
+      "name": "Deep Work",
+      "slug": "deep-work",
+      "author": "Cal Newport",
+      "category": "Productivity",
+      "price": 19.99,
+      "currency": "USD",
+      "rating": 4.5,
+      "stock_quantity": 30,
+      "is_available": true,
+      "cover_image": "https://example.com/images/deep-work.jpg",
+      "published_year": 2016,
+      "created_at": "2026-02-10T09:00:00Z"
+    },
+    {
+      "id": "book_05q8r3t9w1",
+      "name": "The Psychology of Money",
+      "slug": "the-psychology-of-money",
+      "author": "Morgan Housel",
+      "category": "Finance",
+      "price": 18.00,
+      "currency": "USD",
+      "rating": 4.9,
+      "stock_quantity": 60,
+      "is_available": true,
+      "cover_image": "https://example.com/images/psychology-of-money.jpg",
+      "published_year": 2020,
+      "created_at": "2026-02-14T11:45:00Z"
+    },
+    {
+      "id": "book_06s9t4v2x3",
+      "name": "Eloquent JavaScript",
+      "slug": "eloquent-javascript",
+      "author": "Marijn Haverbeke",
+      "category": "Programming",
+      "price": 32.00,
+      "currency": "USD",
+      "rating": 4.6,
+      "stock_quantity": 25,
+      "is_available": true,
+      "cover_image": "https://example.com/images/eloquent-js.jpg",
+      "published_year": 2018,
+      "created_at": "2026-02-20T16:10:00Z"
+    },
+    {
+      "id": "book_07v1w5x4y5",
+      "name": "Sapiens: A Brief History of Humankind",
+      "slug": "sapiens",
+      "author": "Yuval Noah Harari",
+      "category": "History",
+      "price": 24.99,
+      "currency": "USD",
+      "rating": 4.7,
+      "stock_quantity": 40,
+      "is_available": true,
+      "cover_image": "https://example.com/images/sapiens.jpg",
+      "published_year": 2011,
+      "created_at": "2026-03-01T12:00:00Z"
+    },
+    {
+      "id": "book_08x2y6z6a7",
+      "name": "Designing Data-Intensive Applications",
+      "slug": "designing-data-intensive-applications",
+      "author": "Martin Kleppmann",
+      "category": "System Design",
+      "price": 49.99,
+      "currency": "USD",
+      "rating": 4.9,
+      "stock_quantity": 10,
+      "is_available": true,
+      "cover_image": "https://example.com/images/ddia.jpg",
+      "published_year": 2017,
+      "created_at": "2026-03-05T08:00:00Z"
+    },
+    {
+      "id": "book_09y3z7a8b9",
+      "name": "Rich Dad Poor Dad",
+      "slug": "rich-dad-poor-dad",
+      "author": "Robert T. Kiyosaki",
+      "category": "Finance",
+      "price": 16.50,
+      "currency": "USD",
+      "rating": 4.4,
+      "stock_quantity": 50,
+      "is_available": true,
+      "cover_image": "https://example.com/images/rich-dad.jpg",
+      "published_year": 1997,
+      "created_at": "2026-03-10T15:30:00Z"
+    },
+    {
+      "id": "book_10a4b8c1d2",
+      "name": "You Don't Know JS Yet",
+      "slug": "you-dont-know-js-yet",
+      "author": "Kyle Simpson",
+      "category": "Programming",
+      "price": 29.99,
+      "currency": "USD",
+      "rating": 4.8,
+      "stock_quantity": 20,
+      "is_available": true,
+      "cover_image": "https://example.com/images/ydkjs.jpg",
+      "published_year": 2020,
+      "created_at": "2026-03-12T09:20:00Z"
     }
   ]
 }
